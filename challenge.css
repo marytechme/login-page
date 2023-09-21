@@ -140,5 +140,15 @@ button{
     .email{
         border-bottom: 2px solid blue;
     }
+    button{
+        padding: 8px;
+    }
+    .f-password{
+        gap: 150px;
+        margin-top: 30px;
+    }
+    .footer-2{
+        display: none;
+    }
     
 }

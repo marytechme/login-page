@@ -13,7 +13,6 @@ body{
     background-image: url(bg\ 1.jpg);
     background-size: cover;
     padding: 20px;
-   
     height: 649px;
     width: 50%;
 }
@@ -95,7 +94,7 @@ button{
 }
 .f-password {
     display: flex;
-    /* gap: 300px; */
+    gap: 40px;
 }
 
 .f-password a{
@@ -113,4 +112,33 @@ button{
 }
 .footer-2 a{
     text-decoration: none;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .container-1{
+        display: none;
+    }
+    h1.m-header{
+        display: none;
+    }
+    h3{
+        color: blue;
+        margin-bottom: 20px;
+    }
+    .hr{
+        display: none;
+    }
+    form{
+        padding-top: 40px;
+    }
+    input{
+        border-bottom: 1px solid black;
+        width: 400px;
+    }
+    .email{
+        border-bottom: 2px solid blue;
+    }
+    
 }

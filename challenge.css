@@ -16,6 +16,9 @@ body{
     height: 649px;
     width: 50%;
 }
+.hey{
+    display: none;
+}
 span{
     color: rgb(2, 2, 145);
     font-weight: bold;
@@ -82,6 +85,7 @@ input{
     border-bottom: 1px solid black;
     padding-top: 10px;
     padding-bottom: 5px;
+    width: 350px;
 }
 button{
     padding: 10px;
@@ -116,9 +120,12 @@ button{
 
 /* Responsiveness */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)  {
     .container-1{
         display: none;
+    }
+    .hey{
+        display: flex;
     }
     h1.m-header{
         display: none;
@@ -147,8 +154,22 @@ button{
         gap: 150px;
         margin-top: 30px;
     }
-    .footer-2{
-        display: none;
-    }
     
 }
+
+@media only screen and (max-width: 378px){
+    p{
+        line-height: 23px;
+    }
+
+    form{
+        padding-top: 35px;
+    }
+    input{
+        width: 200px;
+    }
+    .f-password{
+        gap: 100px;
+    }
+}
+
